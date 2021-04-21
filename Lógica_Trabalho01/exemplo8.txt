@@ -1,0 +1,14 @@
+1 (p&¬p) HIP
+2 (p&¬p)>p A4 p=p;q=¬p
+3 p MP 1,2
+4 (p&¬p)>¬p A5 p=p;q=¬p
+5 ¬p MP 1,4
+6 p>(¬q>p) A1 p=p;q=¬q
+7 ¬q>p MP 3,6
+8 ¬p>(¬q>¬p) A1 p=¬p;q=¬q
+9 ¬q>¬p MP 5,8
+10 (¬q>p)>((¬q>¬p)>¬¬q) A9 p=¬q;q=p
+11 (¬q>¬p)>¬¬q MP 7,10
+12 ¬¬q MP 9,11
+13 ¬¬q>q A10 p=q
+14 q MP 12,13

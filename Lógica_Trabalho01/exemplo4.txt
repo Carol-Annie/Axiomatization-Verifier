@@ -1,0 +1,7 @@
+1 p HIP
+2 p>(¬p>p) A1 p=p;q=¬p
+3 (¬p>p) MP 1,2
+4 (¬p>¬p) TEOREMA
+5 (¬p>p)>((¬p>¬p)>¬¬p) A9 p=¬p;q=p
+6 ((¬p>¬p)>¬¬p) MP 3,5
+7 ¬¬p MP 4,6

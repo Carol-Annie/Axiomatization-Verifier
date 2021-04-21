@@ -1,0 +1,7 @@
+1 (p>q) HIP 
+2 ¬q HIP
+3 ¬q>(p>¬q) A1 p=¬q;q=p
+4 p>¬q MP 2,3
+5 (p>q)>((p>¬q)>¬p) A9 p=p;q=q
+6 (p>¬q)>¬p MP 1,5
+7 ¬p MP 4,6

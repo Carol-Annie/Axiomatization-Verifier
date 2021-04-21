@@ -1,0 +1,4 @@
+1 (a>((a>a)>a)) A1 p=a;q=a
+2 (a>((a>a)>a)) A1 p=a
+3 (a>((a>a)>a)) A1 1
+4 (a>((a>a)>a)) A5 p=a;q=(a>a)

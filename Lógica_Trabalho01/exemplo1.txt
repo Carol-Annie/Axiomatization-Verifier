@@ -1,0 +1,5 @@
+1 (a>((a>a)>a)) A1 p=a;q=(a>a)
+2 ((a>((a>a)>a)) > ((a>(a>a))>(a>a))) A2 p=a;q=(a>a);r=a
+3 ((a>(a>a))>(a>a)) MP 1,2
+4 (a>(a>a)) A1 p=a;q=a
+5 (a>a) MP 3,4

@@ -1,0 +1,7 @@
+1 ¬(pv¬p)>p TEOREMA
+2 ¬(pv¬p)>¬p TEOREMA
+3 (¬(pv¬p)>p)>((¬(pv¬p)>¬p)>¬¬(pv¬p)) A9 p=¬(pv¬p);q=p
+4 (¬(pv¬p)>¬p)>¬¬(pv¬p) MP 1,3
+5 ¬¬(pv¬p) MP 2,4
+6 ¬¬(pv¬p)>(pv¬p) A10 p=(pv¬p)
+7 (pv¬p) MP 5,6
